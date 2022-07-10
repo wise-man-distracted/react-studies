@@ -70,7 +70,7 @@ function App() {
       </section>
 
       <hr className="divisor" />
-      <section className="motivos">
+      <section className="motivos alterna">
         <div>
           <h1>Aproveite na TV.</h1>
           <p>
