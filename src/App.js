@@ -2,6 +2,7 @@ import "./netflix.css";
 import Logo from "./assets/images/logo.png";
 import Motivo1 from "./assets/images/motivo-1.png";
 import Motivo2 from "./assets/images/motivo-2.png";
+import Button from "./components/Button";
 
 
 /* function App(){
@@ -35,7 +36,8 @@ function App() {
             <option value="PT">Português</option>
             <option value="ING">Ingles</option>
           </select>
-          <button>Entrar</button>
+          <Button variante="alert" text="Login" />
+          {/* <button>Entrar</button> */}
         </div>
       </header>
 
@@ -51,7 +53,8 @@ function App() {
         </p>
         <div>
           <input type="email" placeholder="Email" />
-          <button>Vamos Lá</button>
+          <Button variante="success" text="Vamos lá" />
+          {/* <button>Vamos Lá</button> */}
         </div>
       </section>
 
