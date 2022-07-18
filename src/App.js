@@ -3,6 +3,9 @@ import Logo from "./assets/images/logo.png";
 import Motivo1 from "./assets/images/motivo-1.png";
 import Motivo2 from "./assets/images/motivo-2.png";
 import Button from "./components/Button";
+import Motivo from "./components/Motivo";
+
+
 
 
 /* function App(){
@@ -58,7 +61,7 @@ function App() {
         </div>
       </section>
 
-      <hr className="divisor" />
+      {/* <hr className="divisor" />
       <section className="motivos">
         <div>
           <h1>Aproveite na TV.</h1>
@@ -70,7 +73,10 @@ function App() {
         <div>
           <img src={Motivo1} alt="Motivo 1" />
         </div>
-      </section>
+      </section> */}
+
+      <Motivo variante="motivos alterna" imagem={Motivo1} alt="Motivo 1" titulo="Componente teste" texto="Assista em Smart TVs, PlayStation, Xbox, Chromecast, Apple TV,
+            aparelhos de Blu-ray e outros dispositivos."  />
 
       <hr className="divisor" />
       <section className="motivos alterna">
